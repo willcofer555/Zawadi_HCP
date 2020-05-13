@@ -1,0 +1,58 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<style >
+  div{
+    position : absolute;
+    right : 10px;
+    top : 5px;
+  }
+
+  body {
+    background: url("https://source.unsplash.com/nfquAxPsU7Y/800x800") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+
+  }
+
+</style>
+  </head>
+  <body>
+  {% csrf_token %}
+  Welcome {{e}}
+  <li class="nav-item">
+    <a class="nav-link text-dark" href="{% url 'second_app:index' %}">Home</a>
+    <li><a  class="nav-link text-dark"href="{% url 'second_app:registration' %}">Employee Registration</a></li>
+    </li>
+    <li>  <a  class="nav-link text-dark"href="{% url 'second_app:apply' %}">Application</a>
+
+    </li>
+
+
+
+<h3> Welcome to the Zawadi Employment Portal.</h3>
+<p></p>
+<div class="">
+
+
+
+
+
+
+<button type="button" name="button" onclick="location.href='{% url 'second_app:log' %}'">Logout</button>
+</div>
+
+
+
+
+  </body>
+</html>

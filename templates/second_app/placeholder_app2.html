@@ -1,0 +1,44 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Employment Application</title>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <style >
+
+
+    body {
+      background: black;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      text-align: center;
+      margin-left:30rem;
+
+    }
+
+  </style>
+</head>
+<body>
+  <a style="font-size:25px;" href="{% url 'second_app:index' %}">  Dashboard</a>
+
+    <a style="font-size:25px;margin-left:2.5rem;" href="{% url 'second_app:index' %}"> Homepage</a>
+
+
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "6377093",
+	formId: "625d4a5e-fc20-437a-af8e-80454a8ba3b3"
+});
+</script>
+</body>
+</html>
