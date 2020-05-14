@@ -5,7 +5,7 @@ Zawadi is a global healthcare employee recruiting application featuring p2p and 
 
 ## Getting Started
 
-This application is not available for use in local environment to ensure applicant information security. However, the client facing portions of the webiste is available <a href="http://www.zawadihumancapitalpartners.com">here</a>.
+This application is not available for use in local environment to ensure applicant information security. However, the client facing portions of the webiste is available <a href="https://zawadihumancapitalpartners.com/">here</a>.
 
 
 ## Deployment
