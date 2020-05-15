@@ -14,7 +14,7 @@ This application is deployed using a DigitalOcean droplet VPS with Ubuntu 18.04 
 
 ## Built With
 
-* [Django](https://docs.djangoproject.com/en/3.0/) - The web framework for perfectionists with deadlines.
+* [Django 2.2.4](https://docs.djangoproject.com/en/3.0/) - The web framework for perfectionists with deadlines.
 
 
 ## Authors
