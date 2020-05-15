@@ -15,6 +15,7 @@ This application is deployed using a DigitalOcean droplet VPS with Ubuntu 18.04 
 ## Built With
 
 * [Django 2.2.4](https://docs.djangoproject.com/en/3.0/) - The web framework for perfectionists with deadlines.
+* [PostgreSQL 3.0](https://www.postgresql.org/docs/) - The World's Most Advanced Open Source Relational Database
 
 
 ## Authors
@@ -24,7 +25,7 @@ This application is deployed using a DigitalOcean droplet VPS with Ubuntu 18.04 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
 
 
 
