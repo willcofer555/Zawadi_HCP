@@ -20,7 +20,7 @@ This application is deployed using a DigitalOcean droplet VPS with Ubuntu 18.04 
 ## Authors
 
 * **William Cofer** 
-* **Hannah K. Cook**
+* **Hannah K. Cook https://hannahkcook.tech/ **
 
 ## License
 
