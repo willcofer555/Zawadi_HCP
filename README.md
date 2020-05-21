@@ -23,9 +23,30 @@ This application is deployed using a DigitalOcean droplet VPS with Ubuntu 18.04 
 * William Cofer 
 * Hannah K. Cook https://hannahkcook.tech/ 
 
-## License
 
-This project is licensed under the MIT License.
+development 
+
+django-registration-redux = "==2.6"
+gcloud = "==0.17.0"
+gunicorn = "==19.9.0"
+httplib2 = "==0.13.1"
+jws = "==0.1.3"
+oauth2client = "==3.0.0"
+protobuf = "==3.10.0rc1"
+psycopg2 = "==2.8.3"
+pyasn1 = "==0.4.7"
+pyasn1-modules = "==0.2.6"
+pycryptodome = "==3.4.3"
+python-jwt = "==2.0.1"
+pytz = "==2019.2"
+requests = "==2.11.1"
+requests-toolbelt = "==0.7.0"
+rsa = "==4.0"
+six = "==1.12.0"
+sqlparse = "==0.3.0"
+whitenoise = "==4.1.4"
+Django = "==2.2.4"
+gunicorn = "==19.9.0"
 
 
 
