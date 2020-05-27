@@ -10,13 +10,13 @@ This application is not available for use in local environment to ensure applica
 
 ## Deployment
 
-This application is deployed using a DigitalOcean droplet VPS with Ubuntu 18.04 Apache environment. NginX and Gunicorn are used to serve static files
+This application is deployed using a DigitalOcean droplet VPS with Ubuntu 18.04 Apache environment. NginX/Gunicorn are used to serve static files from the linux environment.
 
 ## Built With
 
 * [Django 2.2.4](https://docs.djangoproject.com/en/3.0/) - The web framework for perfectionists with deadlines.
 * [PostgreSQL 3.0](https://www.postgresql.org/docs/) - The World's Most Advanced Open Source Relational Database
-
+LAMPython
 
 ## Authors
 
